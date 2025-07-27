@@ -1,0 +1,68 @@
+{
+  "name": "nba-stats-analysis-web",
+  "version": "1.0.0",
+  "description": "NBA Player Performance Analysis - Interactive Web Application",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.8.1",
+    "axios": "^1.6.2",
+    "recharts": "^2.8.0",
+    "d3": "^7.8.5",
+    "victory": "^36.6.8",
+    "react-query": "^3.39.3",
+    "styled-components": "^6.1.1",
+    "framer-motion": "^10.16.16",
+    "react-hook-form": "^7.48.2",
+    "react-select": "^5.8.0",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
+    "react-table": "^7.8.0",
+    "react-virtualized": "^9.22.5",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "react-helmet": "^6.1.0",
+    "react-intersection-observer": "^9.5.3",
+    "react-window": "^1.8.8",
+    "react-window-infinite-loader": "^1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && npm run deploy-script",
+    "deploy-script": "echo 'Deploy to your hosting platform'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@types/d3": "^7.4.3",
+    "@types/lodash": "^4.14.202",
+    "typescript": "^4.9.5"
+  },
+  "proxy": "http://localhost:8000"
+}
